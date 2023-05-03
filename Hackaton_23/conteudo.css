@@ -1,0 +1,45 @@
+.main{
+  display: grid;
+  grid-template-rows: min-content 1fr;
+}
+.box h1{
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 3em; /* tamanho da fonte */
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; /* fonte personalizada */
+  font-weight: bold; /* negrito */
+  text-align: center; /* centraliza o texto */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* adiciona sombra no texto */
+  margin: 0; /* remove a margem padrão do elemento */
+  padding: 0; /* remove o preenchimento padrão do elemento */
+}
+.box p{
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: #333;
+  margin: 1em 0;
+  text-align: center;
+}
+.carousel-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  height: auto;
+  overflow: hidden;
+  bottom: 0px;
+  box-shadow: 0 0 5px black;
+}
+
+.carousel-slide {
+  display: flex;
+  width: 300%;
+  transition: transform 0.9s ease-in-out;
+}
+
+.carousel-slide img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  border: white solid 2px;
+}
